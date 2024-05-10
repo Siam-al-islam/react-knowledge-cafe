@@ -13,8 +13,10 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handleMarkAsRead = (time) => {
-    setReadingTime(readingTime + time)
+  const handleMarkAsRead = (id, time) => {
+    setReadingTime(readingTime + time);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
   }
 
   return (
@@ -23,9 +25,7 @@ function App() {
       <main>
         <div className='md:flex gap-6 mt-8'>
           <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
-          <div className='relative'>
-            <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
-          </div>
+          <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
         </div>
       </main>
     </div>

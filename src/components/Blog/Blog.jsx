@@ -1,6 +1,6 @@
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
-    const { cover, title, author_image, author, posted_date, reading_time, hashtags } = blog;
+    const { cover, title, author_image, author, posted_date, reading_time, hashtags, id } = blog;
     return (
         <div className="mb-10">
             <img className="rounded-lg w-full" src={cover} alt={`Cover picture of ${title}`} />
@@ -21,7 +21,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
             <p className="my-4">{
                 hashtags.map((hash, i) => <span key={i}><a href="#">#{hash} </a></span>)}
             </p>
-            <p onClick={() => handleMarkAsRead(reading_time)} className="mt-4 underline text-[#6047EC] text-xl cursor-pointer">Mark as read</p>
+            <p onClick={() => handleMarkAsRead(id, reading_time)} className="mt-4 underline text-[#6047EC] text-xl cursor-pointer">Mark as read</p>
         </div>
     );
 };
