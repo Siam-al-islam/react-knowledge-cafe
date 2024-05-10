@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "cover": "https://i.ibb.co/92gVPQ8/48267.jpg",
-        "title": "The Adventure Begins",
+        "cover": "https://i.postimg.cc/4dg78HzV/1.jpg",
+        "title": "Top 10 ES6 Features You Must Know",
         "author": "Jane Doe",
         "author_image": "https://i.postimg.cc/WDmmvJGd/boy1.png",
         "posted_date": "2024-05-09",
@@ -15,8 +15,8 @@
     },
     {
         "id": 2,
-        "cover": "https://i.ibb.co/jv9h2Mv/32814225-7989513.jpg",
-        "title": "Cooking Masterclass",
+        "cover": "https://i.postimg.cc/nczswJQR/2.png",
+        "title": "JavaScript Object for Absolute Beginners: A Fun Introduction",
         "author": "John Smith",
         "author_image": "https://i.postimg.cc/r081FFjQ/boy2.jpg",
         "posted_date": "2024-05-08",
@@ -29,8 +29,8 @@
     },
     {
         "id": 3,
-        "cover": "https://i.ibb.co/LpmDvFv/top-view-desk-concept-with-coffee.jpg",
-        "title": "Tech Trends 2024",
+        "cover": "https://i.postimg.cc/XNxG8JXB/3.png",
+        "title": "React JS Fundamental Concepts in One Look",
         "author": "Alex Johnson",
         "author_image": "https://i.postimg.cc/Lh8tc5ns/girl1.jpg",
         "posted_date": "2024-05-07",
@@ -43,8 +43,8 @@
     },
     {
         "id": 4,
-        "cover": "https://i.ibb.co/3CNW283/laptop-camera-colorful-background.jpg",
-        "title": "Fitness Fundamentals",
+        "cover": "https://i.postimg.cc/90X423gf/4.jpg",
+        "title": "Get React Free Recources For Your UI Design",
         "author": "Emily Brown",
         "author_image": "https://i.postimg.cc/5YnwHdk1/girl2.jpg",
         "posted_date": "2024-05-06",
