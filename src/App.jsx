@@ -20,9 +20,13 @@ function App() {
   return (
     <div className='max-w-[1280px] mx-auto'>
       <Header></Header>
-      <main className='md:flex gap-6 mt-8'>
-        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
-        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+      <main>
+        <div className='md:flex gap-6 mt-8'>
+          <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+          <div className='relative'>
+            <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+          </div>
+        </div>
       </main>
     </div>
   )
